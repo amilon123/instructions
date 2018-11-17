@@ -1,0 +1,239 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* stylelint-disable */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html,.stylelint{line-height:1}body,.stylelint{line-height:inherit}ol,ul,.stylelint{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+/* Begin site styles below */
+
+#dont {
+  background-color: #b34144;
+  margin-bottom: 8em;
+  border-radius: 1em;
+  padding-bottom: 1em;
+}
+
+#do {
+  margin-top: 0;
+  background-color: #77ad3e;
+  border-radius: 1em;
+  padding-bottom: 1em;
+}
+
+#do h2,
+#dont h2 {
+  margin-top: 1em;
+  margin-bottom: 0;
+  padding-left: 0.3em;
+  padding-top: 1em;
+  font-family: "Faster One";
+  font-size: 2em;
+}
+
+
+
+#home {
+  content: "";
+  background-image: url(../images/FlowingMosaic.jpg);
+  background-color: #ad6c97;
+  background-repeat: space;
+  background-size: cover;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+body {
+  padding: 1.33em;
+}
+
+li {
+  font-size: 1em;
+  font-family: "Montserrat";
+  padding-bottom: 1em;
+}
+
+h1, h2 {
+  text-align: left;
+  padding-top: 3em;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.5em;
+  margin-bottom: 0.5em;
+  padding-left: 0.2em;
+  background-color: #dbe1f0;
+  opacity: 0.6;
+  color: #19333d;
+  border-radius: 0.3em;
+  padding-top: 0.5em;
+  padding-bottom: 10em;
+  margin-top: 3.5em;
+  font-family: "Baloo";
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 1.5em;
+}
+
+a {
+  padding: 1.5em;
+}
+
+nav {
+  background-color: blue;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-family: "Baloo";
+  font-size: 2em;
+}
+
+
+nav #doLink{
+  opacity: 0.95;
+  background-color: #77ad3e;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+nav #dontLink {
+  opacity: 0.95;
+  background-color: #b34144;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+nav li {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+main {
+  top: 0em;
+  padding: 1em;
+}
+
+.product {
+  display: block;
+  top: 200px;
+  position: absolute;
+  margin-left: 3em;
+  margin-right: auto;
+  max-width: 100%;
+  margin-top: 1em;
+  background-size: contain;
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+  border-radius: 2em;
+  box-shadow: 0 0 2em #1c3945;
+  border-radius: 2em;
+  opacity: 0.8;
+  border: solid #4797b8;
+  background-color: #3f85a1;
+}
+
+img {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  border-top: 0.01em dotted black;
+}
+
+.logo {
+  background-color: #dbe1f0;
+  border-bottom: solid #6e2651;
+  opacity: 0.6;
+  display: block;
+  max-width: 80%;
+  padding: 0;
+  right: 0;
+  padding-left: 10em;
+  position: absolute;
+  top: 0;
+}
+
+.indoor, .outdoor {
+  border-top: none;
+}
+
+
+@media screen and (min-width: 68em) { /*1088px*/
+
+main {
+  display: flex;
+}
+
+h1 {
+  padding-left: 9em;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+section {
+  padding: 5em;
+  margin: 5em;
+  padding-top: 0;
+}
+
+.product {
+  margin-left: 30em;
+}
+
+.logo {
+  max-width: 100%;
+  right: 720px;
+}
+
+#do {
+  float: left;
+  margin-bottom: 0;
+}
+
+#dont {
+  padding-top: 0;
+  padding-bottom: 5em;
+  margin-top: 0;
+  float: right;
+  margin-bottom: 0;
+}
+
+.outdoor {
+  padding-bottom: 3em;
+}
+
+.bathroom {
+  padding-bottom: 3em;
+}
+
+.overhang {
+  padding-bottom: 3em;
+}
+
+.heater {
+  padding-bottom: 2em;
+}
+
+.stovetop {
+  padding-bottom: 3em;
+}
+
+}
