@@ -183,9 +183,13 @@ main {
 }
 
 h1 {
-  padding-left: 9em;
-  margin-left: 5em;
-  margin-right: 5em;
+  margin-top: 0;
+  padding-top: 3em;
+  font-size: 3em;
+  padding-left: 1.8em;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-bottom: 1em;
 }
 
 section {
@@ -195,12 +199,24 @@ section {
 }
 
 .product {
-  margin-left: 30em;
+  margin-left: 53em;
+  top: 1.2em;
+  background: none;
+  box-shadow: none;
+  border: none;
+  border-radius: none;
+  opacity: 1;
 }
 
 .logo {
+  background: none;
+  border-top: none;
+  border-bottom: none;
   max-width: 100%;
-  right: 720px;
+  margin-top: 3em;
+  right: 810px;
+  padding-left: 20em;
+  opacity: 9;
 }
 
 #do {
@@ -216,23 +232,7 @@ section {
   margin-bottom: 0;
 }
 
-.outdoor {
-  padding-bottom: 3em;
-}
-
-.bathroom {
-  padding-bottom: 3em;
-}
-
-.overhang {
-  padding-bottom: 3em;
-}
-
-.heater {
-  padding-bottom: 2em;
-}
-
-.stovetop {
+.clearPath {
   padding-bottom: 3em;
 }
 
